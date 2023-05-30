@@ -1,0 +1,44 @@
+---------------Anotações JavaScript-----------------
+
+No javaScript as variaveis podem ser chamadas por Var ou Let
+
+Data Types:
+
+-Number
+      -Infinity
+      -NaN
+-String ('caractere')
+-Boolean (true or false)
+-Null
+-Undefined
+-Object
+      -Array
+-Function
+
+Estrutura de var na pratica:
+
+ var nome = window.prompt('Qual é seu nome?')
+        window.alert('É um grande prazer em te conhecer, ' + nome + '!')
+
+*String > Number
+
+Number(n) = funciona das duas formas ao mesmo tempo
+Number.parseInt(n) = numeros inteiros
+Number.parseFloat(n) = numeros reais
+
+*Number > String
+
+String(n)
+n.toString()
+
+*Formatando Strings
+
+var S = 'JavaScript'
+
+'estou aprendendo S'  //ERRADO
+'estou aprendendo' + S //concatenação CERTO
+`estou aprendendo ${S}` // usa template string (forma mais facil) --USAR A CRASE--
+
+*Number em valores monetarios;
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
