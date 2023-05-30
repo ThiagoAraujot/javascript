@@ -41,4 +41,17 @@ var S = 'JavaScript'
 
 *Number em valores monetarios;
 
-n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) R$
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) US$
+
+*Operadores
+
+-Aritméticos (** ; / * % ; + -) ja em ordem de precedencia
+-Atribuição (+= ; -= ; *= ; **= ; %=) é o mesmo que [n = n + x] entao [n += x]
+-Relacionais ( > ; < ; >= ; <= ; == ; !=) resulta em true ou false
+	diferenças entre =:	= recebe
+			== igual a...
+			=== identico a...
+-Lógicos ( !  negação ; && conjunção ; || disjução) ja na ordem de precedencia
+-ternário (? :) exemplo: TESTE ? TRUE : FALSE
+	                    media >=7 ? 'aprovado' : 'reprovado'
