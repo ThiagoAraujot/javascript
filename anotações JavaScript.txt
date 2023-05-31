@@ -55,3 +55,21 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'}) US$
 -Lógicos ( !  negação ; && conjunção ; || disjução) ja na ordem de precedencia
 -ternário (? :) exemplo: TESTE ? TRUE : FALSE
 	                    media >=7 ? 'aprovado' : 'reprovado'
+
+
+*DOM -->  Document Object Model
+
+Selecionando elementos por:
+
+-Marca: getElementsByTagName()[]
+-ID: getElementById()
+-Nome: getElementsByName()[]
+-Classe: getElementsByClassName()[]
+-Seletor: querySelector()
+	querySelectorAll()
+
+exemplos:
+<script>
+	var d = window.document.querySelector('div#msg')
+	d.style.background = 'white' 
+</script>
