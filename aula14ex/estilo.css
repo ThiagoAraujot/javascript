@@ -22,6 +22,22 @@ section {
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
 }
+input {
+    border: unset;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px
+}
+input.botao {
+    width: 488px;
+}
+input.botao:hover {
+    background-color: rgb(190, 42, 178);
+    color: white;
+    border: 1px solid purple;
+    transition: .3s;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.37);
+}
 div#res {
     padding: 10px;
 }
