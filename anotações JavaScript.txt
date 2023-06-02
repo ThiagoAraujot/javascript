@@ -117,3 +117,33 @@ switch (expressão) {
 }
 
 
+*Estruturas de Repetição
+
+-While: teste lógico no inicio*
+
+while(expressão) {
+	(enquanto o teste for verdadeiro o looping acontecerá)
+}
+
+-Do, While: teste lógico no final:
+
+do {
+
+
+} while (condição)
+
+-For: var, condição, incremento todos no inicio
+
+exemplo: 
+
+//modelo while
+    var c = 1 
+    while (c <= 10) {
+
+        c++
+    }
+
+    //modelo for
+    for (var c=1; c <= 10; c++) {
+        
+    }
