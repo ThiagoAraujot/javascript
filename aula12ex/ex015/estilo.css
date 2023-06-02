@@ -3,6 +3,9 @@
 body {
     background-color: rgb(105, 105, 255);
     font: normal 15pt Arial;
+    background-image: linear-gradient(to bottom, blue, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
     color: white;
@@ -16,8 +19,13 @@ section {
     padding: 15px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-    
-
+}
+img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.342);
+}
+div#res {
+    padding: 10px;
 }
 footer {
     color: white;
