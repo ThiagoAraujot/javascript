@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    font: normal 15pt Arial;
+}
+body {
+    background-image: linear-gradient(to bottom, rgb(190, 42, 178), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header h1 {
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+}
+section {
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+div#res {
+    padding: 10px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
