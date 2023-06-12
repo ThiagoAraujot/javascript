@@ -147,3 +147,25 @@ exemplo:
     for (var c=1; c <= 10; c++) {
         
     }
+
+
+**Váriaveis Compostas
+// Uma array é uma variável composta que tem vários elementos. 
+Cada elemento é composto por seu valor e por uma chave (key)  
+de identificação.
+
+let num = [5, 8, 4]
+*Sempre começa por 0
+num 
+0 = 5
+1 = 8
+2 = 4
+
+*adicionar um elemento a variavel:
+
+num[3] = 7
+ou 
+num.push(7) ==> será adcionado no final independente
+num.length ==> conta qnts elementos tem a array
+num.sort() ==> organiza a array em ordem crescente
+num.indexOf(7) ==> identifica em qual chave o elento 7 se encontra no caso [3])
