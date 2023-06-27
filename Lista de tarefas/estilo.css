@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Sriracha&display=swap');
+
+:root {
+    --cor0: #28D7EB;
+    --cor1: #1E6EF6;
+    --cor2: #19D4B3;
+    --cor3: #1EF693;
+}
+body {
+    background: linear-gradient(to bottom, #1EF693, #19D4B3);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+div#main {
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 520px;
+    background-color: white;
+}
+
+input#tarefa {
+    width: 390px;
+    border: unset;
+    border: 1px solid var(--cor2);
+    border-radius: 10px;
+    padding: 10px;
+}
+button {
+    margin: 2px;
+    border: unset;
+    border-radius: 8px;
+    background-color: var(--cor3);
+    padding: 7px;
+}
+button:hover {
+    background-color: var(--cor0);
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    width: 520px;
+    background-color: white; 
+     
+    
+}
+li {
+    text-align: left;
+}

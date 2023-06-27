@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header><h1>Lista de Tarefas</h1></header>
+    <div id="main">
+        <div class="form">
+            <input type="text" name="text" id="tarefa" required minlength="1">
+            <button onclick="addTask()">Adcionar</button>
+        </div>
+    </div>
+
+    <ul id="tasklist">
+        <p>Adcione uma tarefa acima</p>
+    </ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>

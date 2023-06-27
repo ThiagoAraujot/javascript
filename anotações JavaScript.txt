@@ -169,3 +169,4 @@ num.push(7) ==> será adcionado no final independente
 num.length ==> conta qnts elementos tem a array
 num.sort() ==> organiza a array em ordem crescente
 num.indexOf(7) ==> identifica em qual chave o elento 7 se encontra no caso [3])
+
